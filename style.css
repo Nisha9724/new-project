@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.container-fluid{
+    padding: 0 !important;
+    background-color: #333;
+    color: #f2f2f2;
+    
+}
+
+.topnav {
+    padding: 12px 20px;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 800;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color: white;
+  }
+
+  .header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 5px 20px;
+    border-bottom: 3px solid rgb(234, 99, 99);
+  }
+
+  .line-1st{
+    width: 428px;
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-weight: 900;
+  }
+
+
+  h2{
+    font-weight: 900;
+    font-size: 50px;
+  }
+
+  .block-1{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .break-1{
+    width: 85px;
+  }
+
+  .block{
+    width: 100px;
+  }
+
+  .bold{
+    font-weight: 800;
+    font-size: 19px;
+  }
+
+  .section{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(234, 99, 99);
+  }
+
+  .right-sec{
+    padding-right: 150px;
+  }
+
+  .left-sec{
+    margin: 0px 60px 10px;
+  }
+
+  .our-w{
+    font-weight: 700;
+  }
+
+  .card{
+    margin-right: 10px;
+  }
+
+  .tx-center{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 20px;
+  }
+
+  .details{
+    text-align: left;
+    width: 600px;
+    font-size: 18px;
+  }
+
+  .list-head{
+    font-weight: 700;
+  }
+
+  .list-1{
+    font-size: 18px;
+    width: 385px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-weight: 400;
+  }
+
+  .list{
+    line-height: 1;
+    font-size: 18px;
+  }
+
+  .right-sec-img{
+    display: flex;
+  }
+
+  .img-c{
+    align-items: center;
+  }
+
+  .section-last{
+    padding-top: 20px;
+    border-bottom: 3px solid rgb(234, 99, 99);
+    padding-bottom: 10px;
+    padding-left: 58px;
+  }
+
+
+.follow-us{
+  padding-bottom: 35px;
+}  
+
+  .footer{
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 600px){
+    .container-fluid{
+      background-color: #333;
+      color: #f2f2f2;
+      width: 50%;
+    }
+  }
